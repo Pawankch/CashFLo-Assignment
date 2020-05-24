@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const jwt  = require('jsonwebtoken');
 const jimp = require('jimp');
 const path = require('path');
-const auth = require('./auth');
+const auth = require('./middleware/auth');
 
 //Providing Port number to be used on Cloud/Localhost
 const port = process.env.PORT || 3000
